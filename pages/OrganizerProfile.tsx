@@ -33,14 +33,14 @@ export const OrganizerProfile: React.FC = () => {
       : 'N/A';
 
   return (
-    <div className='bg-gray-50 min-h-screen mt-20'>
+    <div className='bg-gray-50 min-h-screen pt-32'>
       {/* Header / Cover */}
-      <div className='bg-[#1e1e2e] h-2 relative'>
+      <div className='bg-[#1e1e2e] relative container ml-36'>
         <button
           onClick={() => navigate(-1)}
-          className='absolute top-6 left-6 text-white hover:text-gray-300 flex items-center'
+          className=' container absolute -top-28 left-52 hover:text-gray-300 flex items-center text-black'
         >
-          <ArrowLeft className='h-6 w-6 mr-2' /> Back
+          <ArrowLeft className='h-6 w-6 mr-2 text-black' /> Back
         </button>
       </div>
 
@@ -95,7 +95,7 @@ export const OrganizerProfile: React.FC = () => {
               </div>
             </div>
 
-            <div className='mt-6 md:-mt-10'>
+            <div className='mt-6 md:mt-0'>
               <button className='bg-[#1e1e2e] text-white px-6 py-2.5 rounded-md font-medium hover:bg-[#2d2d44] transition-colors shadow-sm'>
                 Contact Organizer
               </button>
